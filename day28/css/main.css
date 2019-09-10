@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+}
+span{
+	font-family: "微软雅黑";
+	font-size: large;
+}
+a{
+	text-decoration: blink;
+	color: #808080;
+}
+a:hover{
+	font-family: "微软雅黑";
+	color: #5F9EA0;
+}
+/*top*/
+.top{
+	float: left;
+	width: 100%;
+	height: 20%;
+	background-color: #00b5e5;
+	flex-wrap: wrap;
+}
+.top div{
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.img1{
+	float: left;
+	margin-top: -0.2%;
+	margin-left: 2%;
+	width: 2.5%;
+}
+.img2{
+	float: left;
+	margin-top: -0.5%;
+	margin-left: 1%;
+	width: 3%;
+}
+.top a{
+	float: left;
+	margin-left: 1%;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: white;
+}
+.top input{
+	float: left;
+	margin-top: -0.1%;
+	margin-left: 1.5%;
+	font-family: "微软雅黑";
+	color: grey;
+	width: 11%;
+}
+#button{
+	margin-top: -0.8%;
+	background:hotpink;
+	color:white;
+	padding: 1% 2% 1% 2%;
+	font-size: medium;
+	border-radius: 2px;
+	border: none;
+}
+/*body*/
+.body{
+	/*background-color: aliceblue;*/
+	float: left;
+	margin-left: 20px;
+	width: 97%;
+}
+/*list*/
+.list{
+	float: left;
+	margin-top: 2.5%;
+	flex-wrap: wrap;
+}
+.list1{
+	float: left;
+	/*margin-top: 20px;*/
+	padding-right: 1%;
+	border-right: 1px solid darkgrey;
+	width: 18%;
+	height: 80px;
+}
+.list1>div{
+	width: 30%;
+	float: left;
+	margin-left: 1%;
+}
+.list1>div>img{
+	width: 95%;
+}
+.list1>div>span{
+	margin-left: 15%;
+}
+.list2{
+	float: left;
+	/*margin-top: 20px;*/
+	margin-left: 2%;
+	padding-right: 2%;
+	border-right: 1px solid darkgrey;
+	width: 60%;
+	height: 80px;
+}
+.list2>span{
+	float: left;
+	margin-top: 13px;
+	margin-left: 5px;
+	font-size: smaller;
+}
+.number{
+	float: left;
+	margin-top: 10px;
+	margin-left: px;
+	background-color: lightblue;
+	border-radius: 3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.list2>img{
+	width: 25px;
+	float: left;
+	margin-top: 10.5px;
+}
+.list3{
+	float: left;
+	margin-top: -1%;
+	margin-left: 1%;
+	width: 15%;
+	height: 80px;
+}
+.list3>div{
+	width: 30%;
+	float: left;
+	margin-left: 3%;
+	margin-top: 1%;
+	flex-wrap: wrap;
+}
+.list3>div>img{
+	width: 65%;
+}
+.list3>div>span{
+	font-family: "微软雅黑";
+	float: left;
+	margin-left: 1%;
+	font-size: smaller;
+}
+/*hot*/
+.hot{
+	float: left;
+	flex-wrap: wrap;
+	margin-top: 3%;
+}
+.roll{
+	float: left;
+	/*margin-top: 20px;*/
+	margin-left: 1%;
+	width: 45%;
+	/*background-color: #ADD8E6;*/
+}
+.roll>img,#cardlist>img{
+	width: 100%;
+	border-radius: 3px;
+}
+.box{
+	/*background-color: #ADD8E6;*/
+	float: left;
+	/*margin-top: 20px;*/
+	margin-left:;
+	width: 54%;
+}
+#cardlist1{
+	float: left;
+	width: 100%;
+}
+#cardlist2{
+	float: left;
+	margin-bottom: 0%;
+	width: 100%;
+}
+#card{
+	flex-wrap: wrap;
+	float: left;
+	margin-left: 1%;
+	width: 32%;
+}
+#card>img{
+	width: 100%;
+	border-radius: 5px;
+}
+
+/*推广*/
+.campaign{
+	float: left;
+	flex-wrap: wrap;
+	margin-top: 3%;
+	width: 100%;
+	
+}
+.dist1{
+	/*background-color: #ADD8E6;*/
+	float: left;
+	margin-left: 1%;
+	margin-top: 1%;
+	width: 65%;
+}
+#logo{
+	width: 100%;
+	float: left;
+	margin-left: 1%;
+}
+#logo img{
+	float: left;
+	width: 40px;
+}
+#logo span{
+	color: gray;
+	float: left;
+	margin-top: 0.75%;
+	margin-left: 1%;
+}
+#cam{
+	float: left;
+	margin-top: 0.75%;
+	width: 100%;
+}
+.cambox{
+	float: left;
+	margin-left: 1%;
+	width: 24%;
+}
+.cambox img{
+	width: 100%;
+	height: 100px;
+	border-radius: 3px;
+}
+#style1{
+	font-family: "黑体";
+	font-size: small;
+	border: 2px solid gray;
+	border-radius: 4px;
+}
+.dist2{
+	/*background-color: #ADD8E6;*/
+	float: left;
+	margin-left: 3%;
+	margin-top: 1%;
+	width: 30%;
+}
+#online{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid gray;
+	background-color: #DCDCDC;
+	float: left;
+	border-radius: 2px;
+}
+#adv{
+	float: left;
+	margin-top: 1%;
+	width: 100%;
+}
+#adv>img{
+	width: 100%;
+	border-radius: 2px;
+}
+.adv{
+	float: left;
+	flex-wrap: wrap;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 100%;
+}
+.adv>img{
+	width: 98%;
+	border-radius: 3px;
+}
+.copyright{
+	float: left;
+	flex-wrap: wrap;
+	margin-top: 3%;
+	margin-left: 1%;
+	width: 100%;
+}
+.copyright>img{
+	width: 100px;
+}
